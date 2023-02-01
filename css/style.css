@@ -7,9 +7,7 @@
 body {
     background-color: var(--primary-bg);
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
 }
 
 #grid {
@@ -36,3 +34,13 @@ body {
 .square.active {
     background-color: var(--active-bg);
 }
+
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    
+}
+
+
