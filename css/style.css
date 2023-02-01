@@ -1,0 +1,38 @@
+:root {
+    --primary-bg: #7FFFD4;
+    --active-bg: green;
+
+}
+
+body {
+    background-color: var(--primary-bg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid {
+    width: 900px;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid,
+.square {
+    border: 2px solid black;
+}
+
+.square {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    cursor: crosshair;
+    color: black;
+    text-align: center;
+
+}
+
+.square.active {
+    background-color: var(--active-bg);
+}
